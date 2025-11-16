@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/username/simple-app.git'
+                git 'https://github.com/naisauliaa/njajalpiplinecuy.git'
             }
         }
         stage('Build') {
@@ -22,4 +22,5 @@ pipeline {
             }
         }
     }
+
 }
